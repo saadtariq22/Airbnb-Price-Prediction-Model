@@ -1,4 +1,6 @@
 # Airbnb-Price-Prediction-Model
 Airbnb is an American company that provides an online housing platform where users can list, discover, and book accommodations for themselves anywhere they go in the world. Hosts can offer to list their property on Airbnb and in return, they have to pay a commission to Airbnb. These accommodations differ from the typical hotel room because of the ability to live and witness the culture of living in the area of choosing. Airbnb’s listings offer a huge range of options ranging from community bedrooms to luxury housing, all in one platform. In order to ensure a great experience for all guests, Airbnb has a review system where guests can leave a review of the place they stay at. These reviews can often dictate how much owners can book/earn. The goal of this project is to apply Machine Learning algorithms (Linear regression, random forest, xgboost, etc.) on Airbnb dataset to predict the price based on different features (bedrooms, property_type, room_type, etc.).
-#Solution Approach
+
+#Solution Approach:
+
 First, I import the data and start data exploration where I look at the different columns and their characteristics, then I select those columns that intuitively make sense and will be useful for this ML project. After that, I clean the remaining columns and remove/fill any missing values and extract numbers from a string. After that, I split the data into 2/3rd train and 1/3rd test. Finally, I tried different types of models to find the best one that fits the data.
